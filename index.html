@@ -14,6 +14,11 @@
     />
 
     <title>Starbucks</title>
+
+    <!-- AOS animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- akhir AOS animate -->
+
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body id="Home">
@@ -72,9 +77,9 @@
       <div class="container">
         <div class="row justify-content-evenly">
           <div class="col-md-5 mt-4 mb-4">
-            <img src="img/foto.jpeg" class="img-fluid" alt="foto"/>
+            <img src="img/foto.jpeg" class="img-fluid" alt="foto"  data-aos="fade-right" data-aos-duration="1000"/>
           </div>
-          <div class="col-md-5 align-self-center fs-6" style="color: white;">
+          <div class="col-md-5 align-self-center fs-6" style="color: white;" data-aos="fade-left"  data-aos-duration="2000">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, officiis earum doloremque aliquam corrupti cumque aliquid veritatis corporis. Provident quo quas, maiores nostrum laborum aspernatur!
             </p>
@@ -97,7 +102,7 @@
      <section id="Menu">
       <div class="container">
         <div class="row mt-3">
-          <div class="col-md-4 mt-4">
+          <div class="col-md-4 mt-4" data-aos="zoom-in" data-aos-duration="1000">
             <div class="card">
               <img src="menu/kopi1.jpeg" class="card-img-top" alt="kopi1">
               <div class="card-body">
@@ -105,7 +110,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="1000">
             <div class="card">
               <img src="menu/kopi2.jpeg" class="card-img-top" alt="kopi2">
               <div class="card-body">
@@ -113,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="1000">
             <div class="card">
               <img src="menu/kopi3.jpeg" class="card-img-top" alt="kopi3">
               <div class="card-body">
@@ -121,7 +126,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="2000">
             <div class="card">
               <img src="menu/kopi4.jpeg" class="card-img-top" alt="kopi4">
               <div class="card-body">
@@ -129,7 +134,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="2000">
             <div class="card">
               <img src="menu/kopi5.jpeg" class="card-img-top" alt="kopi5">
               <div class="card-body">
@@ -137,7 +142,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-3">
+          <div class="col-md-4 mt-3" data-aos="zoom-in" data-aos-duration="2000">
             <div class="card">
               <img src="menu/kopi6.jpeg" class="card-img-top" alt="kopi6">
               <div class="card-body">
@@ -223,5 +228,12 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
   </body>
 </html>
